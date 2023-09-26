@@ -14,7 +14,7 @@ document.querySelector("#p").addEventListener("click", function()
                 }, 6450);
                 document.querySelector(".wynik").innerHTML = "<img src=\"the-rock-surprised.gif\" alt=\"the rock\">"
             }, 3000)
-            document.querySelector(".wynik").innerHTML = "Czy twoja waga to: " + waga + "?";
+            document.querySelector(".wynik").innerHTML = "Czy twoja waga to " + waga + "kg?";
         }, 1000)
         document.querySelector(".wynik").innerHTML = "Poczekaj chwilę";
     }, 200);
